@@ -68,7 +68,12 @@ function load_function(param){
             scene.add(gltf.scene)
         },
         (xhr) => {
+            document.getElementById("loader").style.display = "block"
+            document.getElementById("loader").style.width = (xhr.loaded / xhr.total) * 100 + "%"
             console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
+            if((xhr.loaded / xhr.total) * 100 == 100){
+                document.getElementById("loader").style.display = "none"
+            }
         },
         (error) => {
             console.log(error)
