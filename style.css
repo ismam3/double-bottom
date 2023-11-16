@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#details{
+    margin-right: 0;
+    padding: 0;
+    width: 300px;
+    height: 700px;
+    position: absolute;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+.color{
+    width: 35px;
+    height: 35px;
+}
+.component{
+    color: white;
+    font-size: 30px;
+    margin-left: 55 px;
+}
+.dt{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    padding: 10px;
+    border-bottom: 1px solid wheat;
+}
+#button_div{
+    position: absolute;
+    right: 10px;
+    top:40px;
+    align-items: center;
+    border-radius: 10px;
+}
+#change{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+.dt_sc{
+    position: absolute;
+    width: 300px;
+    align-items: center;
+    background: black;
+    border-bottom: 4px dashed white;
+}
+.dt_sc p{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
