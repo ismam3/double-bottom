@@ -20,7 +20,7 @@ const transverseColorScheme = [
     {cname:"Center Girder",Color:"blue"},
     {cname:"Side Girder",Color:"#e74e1f"},
     {cname:"Solid Floor",Color:"#ff15d9"},
-    {cname:"Pounding Bracket",Color:"#c4ff8f"},
+    {cname:"Docking Bracket",Color:"#c4ff8f"},
     {cname:"Bildge Bracket",Color:"#00E725"},
     {cname:"Inner Bottom Frame",Color:"#e78916"},
     {cname:"Bottom Frame",Color:"#70D2e7"},
